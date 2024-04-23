@@ -17,31 +17,32 @@ a:hover {
   color: #f77f00;
 }
 
-/* Header Styles */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #003049;
-  color: white;
-  padding: 10px 20px;
-}
-
-.logo-text {
-  font-size: 1.5em;
-}
-
-nav {
-  display: flex;
-  gap: 20px;
+/* Header and Footer Styles */
+header, footer {
+  text-align: center;
 }
 
 /* About Section Styles */
-#About {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+header {
+  background-color: #003049;
+  color: white;
+  padding: 10px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2, h3 {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .image-circle {
@@ -49,30 +50,31 @@ nav {
   height: 100px; /* Adjust the height as needed */
   border: 2px solid #003049; /* Border color */
   border-radius: 50%; /* Make the image completely round */
-  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Portfolio Section Styles */
-#Portfolio {
+h4 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+article {
   display: flex;
-  justify-content: space-around;
-  gap: 20px; /* Added for spacing between items */
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#Portfolio section {
-  flex: 0 0 calc(33.33% - 40px); /* Adjusted to fit three items in a row with spacing */
-  padding: 20px;
-  border: 1px solid #ccc;
-  box-sizing: border-box; /* Include padding in width calculation */
+article div {
+  text-align: center;
+  margin: 20px;
 }
 
-#Portfolio h3 {
-  font-size: 1.2em;
-}
-
-#Portfolio p {
-  font-size: 14px;
+/* Contact Section Styles */
+h5 {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 /* Additional Styles */
