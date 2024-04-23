@@ -1,4 +1,4 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+ The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
@@ -46,10 +46,8 @@ h2, h3 {
 }
 
 .image-circle {
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
-  border: 2px solid #003049; /* Border color */
-  border-radius: 50%; /* Make the image completely round */
+  border: 2px solid #003049;
+  border-radius: 50%;
   display: block;
   margin: 0 auto;
 }
